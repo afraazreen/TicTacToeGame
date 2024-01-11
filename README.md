@@ -7,4 +7,5 @@ This project is a Java Graphical User Interface (GUI) application which replicat
 The game has been designed to ensure that it is fair, thus the game ensures that there is a random generation of each players turn whenever the game is played. 
 
 # 2. Identification of Winner
-The game has been designed with a method called check(), which is constantly checking to see whether any of the players have one. As a result, as soon as one of the winning conditions have been triggered, the game will display a message to the user, allowing them to understand that the game has now terminated. 
+The game has been designed with a method called check(), which is constantly checking to see whether any of the players have one. As a result, as soon as one of the winning conditions have been triggered, the game will display a message to the user, allowing them to understand that the game has now terminated. The winning conditions include consecutive Xs/Os in a row, column, or from corner to corner of the grid.
+
